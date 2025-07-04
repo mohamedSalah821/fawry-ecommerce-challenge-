@@ -75,8 +75,4 @@ All code written in a single Main.java file for simplicity
 📁 File Structure
 Main.java   // Contains all classes: Product, Cart, Customer, etc.
 -----------------------------------
-🚀 Submission
-Submitted for: Fawry Rise Journey 2025 Internship
-Track: Full Stack Development (Java)
-Applicant: Mohamed Salah Sabry Mohamed
 
