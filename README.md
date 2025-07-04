@@ -12,13 +12,16 @@ The project simulates a basic e-commerce system, demonstrating object-oriented p
   - Name, Price, Quantity
   - Some are **expirable** (e.g. Cheese, Biscuits)
   - Some are **shippable** (e.g. TV, Cheese) with weight
+
 - Cart functionality:
   - Add items to cart
   - Prevent adding expired or out-of-stock items
+
 - Checkout process:
   - Calculate subtotal, shipping, total amount
   - Deduct from customer balance
   - Display final receipt
+
 - Shipping Service:
   - Collect all shippable items
   - Display item names and total shipping weight
@@ -27,12 +30,12 @@ The project simulates a basic e-commerce system, demonstrating object-oriented p
 
 ## 💡 Use Cases Covered
 
-- ✅ Adding multiple product types
-- ✅ Handling expired or unavailable stock
-- ✅ Empty cart validation
-- ✅ Insufficient balance check
-- ✅ ShippingService logic
-- ✅ Console output similar to the example in the challenge
+✅ Adding multiple product types  
+✅ Handling expired or unavailable stock  
+✅ Empty cart validation  
+✅ Insufficient balance check  
+✅ ShippingService logic  
+✅ Console output similar to the example in the challenge  
 
 ---
 
@@ -57,16 +60,4 @@ Subtotal 350.0
 Shipping 30.0
 Amount 380.0
 Remaining balance: 620.0
------------------------
-🛠 Technologies Used
-Java (Object-Oriented)
-
-No frameworks or external libraries
-
-All code written in a single Main.java file for simplicity
-
--------------------------
-📁 File Structure
 Main.java   // Contains all classes: Product, Cart, Customer, etc.
---------------------------
-
